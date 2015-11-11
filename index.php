@@ -18,9 +18,13 @@ if(version_compare(PHP_VERSION,'5.3.0','<'))  die('require PHP > 5.3.0 !');
 define('APP_DEBUG',True);
 //define('CONF_EXT','.ini'); 配置文件格式 默认为PHP
 // 定义应用目录
+define('COMMON_PATH','./Common/');
 define('APP_PATH','./Apps/');
-
+define('BIND_MODULE','Home');//定义默认模块目录
+//define('BUILD_CONTROLLER_LIST','Index,User,Menu');
+//define('BUILD_MODEL_LIST','User,Menu');
 // 引入ThinkPHP入口文件
 require './ThinkPHP/ThinkPHP.php';
 
 // 亲^_^ 后面不需要任何代码了 就是如此简单
+?>
