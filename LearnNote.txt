@@ -1,2 +1,0 @@
-学习笔记：
-1.ThinkPHP配置文件在入口文件处设置define('CONF_EXT','.ini');
