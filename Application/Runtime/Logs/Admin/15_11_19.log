@@ -1,0 +1,805 @@
+[ 2015-11-19T16:27:35+08:00 ] 127.0.0.1 /stupboy/Admin/Index/index/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: select a.column_name,data_type,decode(nullable,'Y',0,1) notnull,data_default,decode(a.column_name,b.column_name,1,0) pk from user_tab_columns a,(select column_name from user_constraints c,user_cons_columns col where c.constraint_name=col.constraint_name and c.constraint_type='P'and c.table_name='PHP_DAILY_SELL') b where table_name='PHP_DAILY_SELL' and a.column_name=b.column_name(+) [ RunTime:0.0020s ]
+ERR: 942:OCIStmtExecute: ORA-00942: 表或视图不存在
+ (ext\pdo_oci\oci_statement.c:148)
+ [ SQL语句 ] : SELECT * FROM (SELECT thinkphp.*, rownum AS numrow FROM (SELECT   COUNT(*) AS tp_count FROM php_daily_sell) thinkphp )  WHERE (numrow>0 AND numrow<=1)
+ERR: 942:OCIStmtExecute: ORA-00942: 表或视图不存在
+ (ext\pdo_oci\oci_statement.c:148)
+ [ SQL语句 ] : SELECT * FROM (SELECT thinkphp.*, rownum AS numrow FROM (SELECT   COUNT(*) AS tp_count FROM php_daily_sell) thinkphp )  WHERE (numrow>0 AND numrow<=1)
+
+[ 2015-11-19T16:27:59+08:00 ] 127.0.0.1 /stupboy/Admin/Index/index/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: select a.column_name,data_type,decode(nullable,'Y',0,1) notnull,data_default,decode(a.column_name,b.column_name,1,0) pk from user_tab_columns a,(select column_name from user_constraints c,user_cons_columns col where c.constraint_name=col.constraint_name and c.constraint_type='P'and c.table_name='PHP_DAILY_SELL') b where table_name='PHP_DAILY_SELL' and a.column_name=b.column_name(+) [ RunTime:0.0020s ]
+ERR: 942:OCIStmtExecute: ORA-00942: 表或视图不存在
+ (ext\pdo_oci\oci_statement.c:148)
+ [ SQL语句 ] : SELECT * FROM (SELECT thinkphp.*, rownum AS numrow FROM (SELECT   COUNT(*) AS tp_count FROM php_daily_sell) thinkphp )  WHERE (numrow>0 AND numrow<=1)
+ERR: 942:OCIStmtExecute: ORA-00942: 表或视图不存在
+ (ext\pdo_oci\oci_statement.c:148)
+ [ SQL语句 ] : SELECT * FROM (SELECT thinkphp.*, rownum AS numrow FROM (SELECT   COUNT(*) AS tp_count FROM php_daily_sell) thinkphp )  WHERE (numrow>0 AND numrow<=1)
+
+[ 2015-11-19T16:28:00+08:00 ] 127.0.0.1 /stupboy/Admin/Index/index/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: select a.column_name,data_type,decode(nullable,'Y',0,1) notnull,data_default,decode(a.column_name,b.column_name,1,0) pk from user_tab_columns a,(select column_name from user_constraints c,user_cons_columns col where c.constraint_name=col.constraint_name and c.constraint_type='P'and c.table_name='PHP_DAILY_SELL') b where table_name='PHP_DAILY_SELL' and a.column_name=b.column_name(+) [ RunTime:0.0010s ]
+ERR: 942:OCIStmtExecute: ORA-00942: 表或视图不存在
+ (ext\pdo_oci\oci_statement.c:148)
+ [ SQL语句 ] : SELECT * FROM (SELECT thinkphp.*, rownum AS numrow FROM (SELECT   COUNT(*) AS tp_count FROM php_daily_sell) thinkphp )  WHERE (numrow>0 AND numrow<=1)
+ERR: 942:OCIStmtExecute: ORA-00942: 表或视图不存在
+ (ext\pdo_oci\oci_statement.c:148)
+ [ SQL语句 ] : SELECT * FROM (SELECT thinkphp.*, rownum AS numrow FROM (SELECT   COUNT(*) AS tp_count FROM php_daily_sell) thinkphp )  WHERE (numrow>0 AND numrow<=1)
+
+[ 2015-11-19T16:28:00+08:00 ] 127.0.0.1 /stupboy/Admin/Index/index/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001001s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: select a.column_name,data_type,decode(nullable,'Y',0,1) notnull,data_default,decode(a.column_name,b.column_name,1,0) pk from user_tab_columns a,(select column_name from user_constraints c,user_cons_columns col where c.constraint_name=col.constraint_name and c.constraint_type='P'and c.table_name='PHP_DAILY_SELL') b where table_name='PHP_DAILY_SELL' and a.column_name=b.column_name(+) [ RunTime:0.0020s ]
+ERR: 942:OCIStmtExecute: ORA-00942: 表或视图不存在
+ (ext\pdo_oci\oci_statement.c:148)
+ [ SQL语句 ] : SELECT * FROM (SELECT thinkphp.*, rownum AS numrow FROM (SELECT   COUNT(*) AS tp_count FROM php_daily_sell) thinkphp )  WHERE (numrow>0 AND numrow<=1)
+ERR: 942:OCIStmtExecute: ORA-00942: 表或视图不存在
+ (ext\pdo_oci\oci_statement.c:148)
+ [ SQL语句 ] : SELECT * FROM (SELECT thinkphp.*, rownum AS numrow FROM (SELECT   COUNT(*) AS tp_count FROM php_daily_sell) thinkphp )  WHERE (numrow>0 AND numrow<=1)
+
+[ 2015-11-19T16:28:00+08:00 ] 127.0.0.1 /stupboy/Admin/Index/index/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: select a.column_name,data_type,decode(nullable,'Y',0,1) notnull,data_default,decode(a.column_name,b.column_name,1,0) pk from user_tab_columns a,(select column_name from user_constraints c,user_cons_columns col where c.constraint_name=col.constraint_name and c.constraint_type='P'and c.table_name='PHP_DAILY_SELL') b where table_name='PHP_DAILY_SELL' and a.column_name=b.column_name(+) [ RunTime:0.0020s ]
+ERR: 942:OCIStmtExecute: ORA-00942: 表或视图不存在
+ (ext\pdo_oci\oci_statement.c:148)
+ [ SQL语句 ] : SELECT * FROM (SELECT thinkphp.*, rownum AS numrow FROM (SELECT   COUNT(*) AS tp_count FROM php_daily_sell) thinkphp )  WHERE (numrow>0 AND numrow<=1)
+ERR: 942:OCIStmtExecute: ORA-00942: 表或视图不存在
+ (ext\pdo_oci\oci_statement.c:148)
+ [ SQL语句 ] : SELECT * FROM (SELECT thinkphp.*, rownum AS numrow FROM (SELECT   COUNT(*) AS tp_count FROM php_daily_sell) thinkphp )  WHERE (numrow>0 AND numrow<=1)
+
+[ 2015-11-19T16:28:22+08:00 ] 127.0.0.1 /stupboy/Admin/Index/index/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: select a.column_name,data_type,decode(nullable,'Y',0,1) notnull,data_default,decode(a.column_name,b.column_name,1,0) pk from user_tab_columns a,(select column_name from user_constraints c,user_cons_columns col where c.constraint_name=col.constraint_name and c.constraint_type='P'and c.table_name='PHP_JWY001') b where table_name='PHP_JWY001' and a.column_name=b.column_name(+) [ RunTime:0.0020s ]
+ERR: 942:OCIStmtExecute: ORA-00942: 表或视图不存在
+ (ext\pdo_oci\oci_statement.c:148)
+ [ SQL语句 ] : SELECT * FROM (SELECT thinkphp.*, rownum AS numrow FROM (SELECT   COUNT(*) AS tp_count FROM php_jwy001 WHERE ( 店名='湖里旗舰店' )) thinkphp )  WHERE (numrow>0 AND numrow<=1)
+ERR: 942:OCIStmtExecute: ORA-00942: 表或视图不存在
+ (ext\pdo_oci\oci_statement.c:148)
+ [ SQL语句 ] : SELECT * FROM (SELECT thinkphp.*, rownum AS numrow FROM (SELECT   COUNT(*) AS tp_count FROM php_jwy001 WHERE ( 店名='湖里旗舰店' )) thinkphp )  WHERE (numrow>0 AND numrow<=1)
+
+[ 2015-11-19T16:28:23+08:00 ] 127.0.0.1 /stupboy/Admin/Index/index/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: select a.column_name,data_type,decode(nullable,'Y',0,1) notnull,data_default,decode(a.column_name,b.column_name,1,0) pk from user_tab_columns a,(select column_name from user_constraints c,user_cons_columns col where c.constraint_name=col.constraint_name and c.constraint_type='P'and c.table_name='PHP_JWY001') b where table_name='PHP_JWY001' and a.column_name=b.column_name(+) [ RunTime:0.0020s ]
+ERR: 942:OCIStmtExecute: ORA-00942: 表或视图不存在
+ (ext\pdo_oci\oci_statement.c:148)
+ [ SQL语句 ] : SELECT * FROM (SELECT thinkphp.*, rownum AS numrow FROM (SELECT   COUNT(*) AS tp_count FROM php_jwy001 WHERE ( 店名='湖里旗舰店' )) thinkphp )  WHERE (numrow>0 AND numrow<=1)
+ERR: 942:OCIStmtExecute: ORA-00942: 表或视图不存在
+ (ext\pdo_oci\oci_statement.c:148)
+ [ SQL语句 ] : SELECT * FROM (SELECT thinkphp.*, rownum AS numrow FROM (SELECT   COUNT(*) AS tp_count FROM php_jwy001 WHERE ( 店名='湖里旗舰店' )) thinkphp )  WHERE (numrow>0 AND numrow<=1)
+
+[ 2015-11-19T16:28:24+08:00 ] 127.0.0.1 /stupboy/Admin/Index/index/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: select a.column_name,data_type,decode(nullable,'Y',0,1) notnull,data_default,decode(a.column_name,b.column_name,1,0) pk from user_tab_columns a,(select column_name from user_constraints c,user_cons_columns col where c.constraint_name=col.constraint_name and c.constraint_type='P'and c.table_name='PHP_JWY001') b where table_name='PHP_JWY001' and a.column_name=b.column_name(+) [ RunTime:0.0010s ]
+ERR: 942:OCIStmtExecute: ORA-00942: 表或视图不存在
+ (ext\pdo_oci\oci_statement.c:148)
+ [ SQL语句 ] : SELECT * FROM (SELECT thinkphp.*, rownum AS numrow FROM (SELECT   COUNT(*) AS tp_count FROM php_jwy001 WHERE ( 店名='湖里旗舰店' )) thinkphp )  WHERE (numrow>0 AND numrow<=1)
+ERR: 942:OCIStmtExecute: ORA-00942: 表或视图不存在
+ (ext\pdo_oci\oci_statement.c:148)
+ [ SQL语句 ] : SELECT * FROM (SELECT thinkphp.*, rownum AS numrow FROM (SELECT   COUNT(*) AS tp_count FROM php_jwy001 WHERE ( 店名='湖里旗舰店' )) thinkphp )  WHERE (numrow>0 AND numrow<=1)
+
+[ 2015-11-19T16:28:24+08:00 ] 127.0.0.1 /stupboy/Admin/Index/index/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: select a.column_name,data_type,decode(nullable,'Y',0,1) notnull,data_default,decode(a.column_name,b.column_name,1,0) pk from user_tab_columns a,(select column_name from user_constraints c,user_cons_columns col where c.constraint_name=col.constraint_name and c.constraint_type='P'and c.table_name='PHP_JWY001') b where table_name='PHP_JWY001' and a.column_name=b.column_name(+) [ RunTime:0.0020s ]
+ERR: 942:OCIStmtExecute: ORA-00942: 表或视图不存在
+ (ext\pdo_oci\oci_statement.c:148)
+ [ SQL语句 ] : SELECT * FROM (SELECT thinkphp.*, rownum AS numrow FROM (SELECT   COUNT(*) AS tp_count FROM php_jwy001 WHERE ( 店名='湖里旗舰店' )) thinkphp )  WHERE (numrow>0 AND numrow<=1)
+ERR: 942:OCIStmtExecute: ORA-00942: 表或视图不存在
+ (ext\pdo_oci\oci_statement.c:148)
+ [ SQL语句 ] : SELECT * FROM (SELECT thinkphp.*, rownum AS numrow FROM (SELECT   COUNT(*) AS tp_count FROM php_jwy001 WHERE ( 店名='湖里旗舰店' )) thinkphp )  WHERE (numrow>0 AND numrow<=1)
+
+[ 2015-11-19T16:28:25+08:00 ] 127.0.0.1 /stupboy/Admin/Index/index/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: select a.column_name,data_type,decode(nullable,'Y',0,1) notnull,data_default,decode(a.column_name,b.column_name,1,0) pk from user_tab_columns a,(select column_name from user_constraints c,user_cons_columns col where c.constraint_name=col.constraint_name and c.constraint_type='P'and c.table_name='PHP_JWY001') b where table_name='PHP_JWY001' and a.column_name=b.column_name(+) [ RunTime:0.0030s ]
+ERR: 942:OCIStmtExecute: ORA-00942: 表或视图不存在
+ (ext\pdo_oci\oci_statement.c:148)
+ [ SQL语句 ] : SELECT * FROM (SELECT thinkphp.*, rownum AS numrow FROM (SELECT   COUNT(*) AS tp_count FROM php_jwy001 WHERE ( 店名='湖里旗舰店' )) thinkphp )  WHERE (numrow>0 AND numrow<=1)
+ERR: 942:OCIStmtExecute: ORA-00942: 表或视图不存在
+ (ext\pdo_oci\oci_statement.c:148)
+ [ SQL语句 ] : SELECT * FROM (SELECT thinkphp.*, rownum AS numrow FROM (SELECT   COUNT(*) AS tp_count FROM php_jwy001 WHERE ( 店名='湖里旗舰店' )) thinkphp )  WHERE (numrow>0 AND numrow<=1)
+
+[ 2015-11-19T16:28:25+08:00 ] 127.0.0.1 /stupboy/Admin/Index/index/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: select a.column_name,data_type,decode(nullable,'Y',0,1) notnull,data_default,decode(a.column_name,b.column_name,1,0) pk from user_tab_columns a,(select column_name from user_constraints c,user_cons_columns col where c.constraint_name=col.constraint_name and c.constraint_type='P'and c.table_name='PHP_JWY001') b where table_name='PHP_JWY001' and a.column_name=b.column_name(+) [ RunTime:0.0020s ]
+ERR: 942:OCIStmtExecute: ORA-00942: 表或视图不存在
+ (ext\pdo_oci\oci_statement.c:148)
+ [ SQL语句 ] : SELECT * FROM (SELECT thinkphp.*, rownum AS numrow FROM (SELECT   COUNT(*) AS tp_count FROM php_jwy001 WHERE ( 店名='湖里旗舰店' )) thinkphp )  WHERE (numrow>0 AND numrow<=1)
+ERR: 942:OCIStmtExecute: ORA-00942: 表或视图不存在
+ (ext\pdo_oci\oci_statement.c:148)
+ [ SQL语句 ] : SELECT * FROM (SELECT thinkphp.*, rownum AS numrow FROM (SELECT   COUNT(*) AS tp_count FROM php_jwy001 WHERE ( 店名='湖里旗舰店' )) thinkphp )  WHERE (numrow>0 AND numrow<=1)
+
+[ 2015-11-19T16:28:25+08:00 ] 127.0.0.1 /stupboy/Admin/Index/index/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: select a.column_name,data_type,decode(nullable,'Y',0,1) notnull,data_default,decode(a.column_name,b.column_name,1,0) pk from user_tab_columns a,(select column_name from user_constraints c,user_cons_columns col where c.constraint_name=col.constraint_name and c.constraint_type='P'and c.table_name='PHP_JWY001') b where table_name='PHP_JWY001' and a.column_name=b.column_name(+) [ RunTime:0.0020s ]
+ERR: 942:OCIStmtExecute: ORA-00942: 表或视图不存在
+ (ext\pdo_oci\oci_statement.c:148)
+ [ SQL语句 ] : SELECT * FROM (SELECT thinkphp.*, rownum AS numrow FROM (SELECT   COUNT(*) AS tp_count FROM php_jwy001 WHERE ( 店名='湖里旗舰店' )) thinkphp )  WHERE (numrow>0 AND numrow<=1)
+ERR: 942:OCIStmtExecute: ORA-00942: 表或视图不存在
+ (ext\pdo_oci\oci_statement.c:148)
+ [ SQL语句 ] : SELECT * FROM (SELECT thinkphp.*, rownum AS numrow FROM (SELECT   COUNT(*) AS tp_count FROM php_jwy001 WHERE ( 店名='湖里旗舰店' )) thinkphp )  WHERE (numrow>0 AND numrow<=1)
+
+[ 2015-11-19T16:28:25+08:00 ] 127.0.0.1 /stupboy/Admin/Index/index/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: select a.column_name,data_type,decode(nullable,'Y',0,1) notnull,data_default,decode(a.column_name,b.column_name,1,0) pk from user_tab_columns a,(select column_name from user_constraints c,user_cons_columns col where c.constraint_name=col.constraint_name and c.constraint_type='P'and c.table_name='PHP_JWY001') b where table_name='PHP_JWY001' and a.column_name=b.column_name(+) [ RunTime:0.0020s ]
+ERR: 942:OCIStmtExecute: ORA-00942: 表或视图不存在
+ (ext\pdo_oci\oci_statement.c:148)
+ [ SQL语句 ] : SELECT * FROM (SELECT thinkphp.*, rownum AS numrow FROM (SELECT   COUNT(*) AS tp_count FROM php_jwy001 WHERE ( 店名='湖里旗舰店' )) thinkphp )  WHERE (numrow>0 AND numrow<=1)
+ERR: 942:OCIStmtExecute: ORA-00942: 表或视图不存在
+ (ext\pdo_oci\oci_statement.c:148)
+ [ SQL语句 ] : SELECT * FROM (SELECT thinkphp.*, rownum AS numrow FROM (SELECT   COUNT(*) AS tp_count FROM php_jwy001 WHERE ( 店名='湖里旗舰店' )) thinkphp )  WHERE (numrow>0 AND numrow<=1)
+
+[ 2015-11-19T16:28:26+08:00 ] 127.0.0.1 /stupboy/Admin/Index/index/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: select a.column_name,data_type,decode(nullable,'Y',0,1) notnull,data_default,decode(a.column_name,b.column_name,1,0) pk from user_tab_columns a,(select column_name from user_constraints c,user_cons_columns col where c.constraint_name=col.constraint_name and c.constraint_type='P'and c.table_name='PHP_JWY001') b where table_name='PHP_JWY001' and a.column_name=b.column_name(+) [ RunTime:0.0020s ]
+ERR: 942:OCIStmtExecute: ORA-00942: 表或视图不存在
+ (ext\pdo_oci\oci_statement.c:148)
+ [ SQL语句 ] : SELECT * FROM (SELECT thinkphp.*, rownum AS numrow FROM (SELECT   COUNT(*) AS tp_count FROM php_jwy001 WHERE ( 店名='湖里旗舰店' )) thinkphp )  WHERE (numrow>0 AND numrow<=1)
+ERR: 942:OCIStmtExecute: ORA-00942: 表或视图不存在
+ (ext\pdo_oci\oci_statement.c:148)
+ [ SQL语句 ] : SELECT * FROM (SELECT thinkphp.*, rownum AS numrow FROM (SELECT   COUNT(*) AS tp_count FROM php_jwy001 WHERE ( 店名='湖里旗舰店' )) thinkphp )  WHERE (numrow>0 AND numrow<=1)
+
+[ 2015-11-19T16:28:26+08:00 ] 127.0.0.1 /stupboy/Admin/Index/index/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: select a.column_name,data_type,decode(nullable,'Y',0,1) notnull,data_default,decode(a.column_name,b.column_name,1,0) pk from user_tab_columns a,(select column_name from user_constraints c,user_cons_columns col where c.constraint_name=col.constraint_name and c.constraint_type='P'and c.table_name='PHP_JWY001') b where table_name='PHP_JWY001' and a.column_name=b.column_name(+) [ RunTime:0.0010s ]
+ERR: 942:OCIStmtExecute: ORA-00942: 表或视图不存在
+ (ext\pdo_oci\oci_statement.c:148)
+ [ SQL语句 ] : SELECT * FROM (SELECT thinkphp.*, rownum AS numrow FROM (SELECT   COUNT(*) AS tp_count FROM php_jwy001 WHERE ( 店名='湖里旗舰店' )) thinkphp )  WHERE (numrow>0 AND numrow<=1)
+ERR: 942:OCIStmtExecute: ORA-00942: 表或视图不存在
+ (ext\pdo_oci\oci_statement.c:148)
+ [ SQL语句 ] : SELECT * FROM (SELECT thinkphp.*, rownum AS numrow FROM (SELECT   COUNT(*) AS tp_count FROM php_jwy001 WHERE ( 店名='湖里旗舰店' )) thinkphp )  WHERE (numrow>0 AND numrow<=1)
+
+[ 2015-11-19T16:28:26+08:00 ] 127.0.0.1 /stupboy/Admin/Index/index/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: select a.column_name,data_type,decode(nullable,'Y',0,1) notnull,data_default,decode(a.column_name,b.column_name,1,0) pk from user_tab_columns a,(select column_name from user_constraints c,user_cons_columns col where c.constraint_name=col.constraint_name and c.constraint_type='P'and c.table_name='PHP_JWY001') b where table_name='PHP_JWY001' and a.column_name=b.column_name(+) [ RunTime:0.0020s ]
+ERR: 942:OCIStmtExecute: ORA-00942: 表或视图不存在
+ (ext\pdo_oci\oci_statement.c:148)
+ [ SQL语句 ] : SELECT * FROM (SELECT thinkphp.*, rownum AS numrow FROM (SELECT   COUNT(*) AS tp_count FROM php_jwy001 WHERE ( 店名='湖里旗舰店' )) thinkphp )  WHERE (numrow>0 AND numrow<=1)
+ERR: 942:OCIStmtExecute: ORA-00942: 表或视图不存在
+ (ext\pdo_oci\oci_statement.c:148)
+ [ SQL语句 ] : SELECT * FROM (SELECT thinkphp.*, rownum AS numrow FROM (SELECT   COUNT(*) AS tp_count FROM php_jwy001 WHERE ( 店名='湖里旗舰店' )) thinkphp )  WHERE (numrow>0 AND numrow<=1)
+
+[ 2015-11-19T16:28:27+08:00 ] 127.0.0.1 /stupboy/Admin/Index/index/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: select a.column_name,data_type,decode(nullable,'Y',0,1) notnull,data_default,decode(a.column_name,b.column_name,1,0) pk from user_tab_columns a,(select column_name from user_constraints c,user_cons_columns col where c.constraint_name=col.constraint_name and c.constraint_type='P'and c.table_name='PHP_JWY001') b where table_name='PHP_JWY001' and a.column_name=b.column_name(+) [ RunTime:0.0020s ]
+ERR: 942:OCIStmtExecute: ORA-00942: 表或视图不存在
+ (ext\pdo_oci\oci_statement.c:148)
+ [ SQL语句 ] : SELECT * FROM (SELECT thinkphp.*, rownum AS numrow FROM (SELECT   COUNT(*) AS tp_count FROM php_jwy001 WHERE ( 店名='湖里旗舰店' )) thinkphp )  WHERE (numrow>0 AND numrow<=1)
+ERR: 942:OCIStmtExecute: ORA-00942: 表或视图不存在
+ (ext\pdo_oci\oci_statement.c:148)
+ [ SQL语句 ] : SELECT * FROM (SELECT thinkphp.*, rownum AS numrow FROM (SELECT   COUNT(*) AS tp_count FROM php_jwy001 WHERE ( 店名='湖里旗舰店' )) thinkphp )  WHERE (numrow>0 AND numrow<=1)
+
+[ 2015-11-19T16:28:27+08:00 ] 127.0.0.1 /stupboy/Admin/Index/index/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: select a.column_name,data_type,decode(nullable,'Y',0,1) notnull,data_default,decode(a.column_name,b.column_name,1,0) pk from user_tab_columns a,(select column_name from user_constraints c,user_cons_columns col where c.constraint_name=col.constraint_name and c.constraint_type='P'and c.table_name='PHP_JWY001') b where table_name='PHP_JWY001' and a.column_name=b.column_name(+) [ RunTime:0.0010s ]
+ERR: 942:OCIStmtExecute: ORA-00942: 表或视图不存在
+ (ext\pdo_oci\oci_statement.c:148)
+ [ SQL语句 ] : SELECT * FROM (SELECT thinkphp.*, rownum AS numrow FROM (SELECT   COUNT(*) AS tp_count FROM php_jwy001 WHERE ( 店名='湖里旗舰店' )) thinkphp )  WHERE (numrow>0 AND numrow<=1)
+ERR: 942:OCIStmtExecute: ORA-00942: 表或视图不存在
+ (ext\pdo_oci\oci_statement.c:148)
+ [ SQL语句 ] : SELECT * FROM (SELECT thinkphp.*, rownum AS numrow FROM (SELECT   COUNT(*) AS tp_count FROM php_jwy001 WHERE ( 店名='湖里旗舰店' )) thinkphp )  WHERE (numrow>0 AND numrow<=1)
+
+[ 2015-11-19T16:28:38+08:00 ] 127.0.0.1 /stupboy/Admin/Index/index/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: select a.column_name,data_type,decode(nullable,'Y',0,1) notnull,data_default,decode(a.column_name,b.column_name,1,0) pk from user_tab_columns a,(select column_name from user_constraints c,user_cons_columns col where c.constraint_name=col.constraint_name and c.constraint_type='P'and c.table_name='RP_JWY001') b where table_name='RP_JWY001' and a.column_name=b.column_name(+) [ RunTime:0.1070s ]
+ERR: 4044:OCIStmtExecute: ORA-04044: 此处不允许过程, 函数, 程序包或类型
+ (ext\pdo_oci\oci_statement.c:148)
+ [ SQL语句 ] : SELECT * FROM (SELECT thinkphp.*, rownum AS numrow FROM (SELECT   COUNT(*) AS tp_count FROM rp_jwy001 WHERE ( 店名='湖里旗舰店' )) thinkphp )  WHERE (numrow>0 AND numrow<=1)
+ERR: 4044:OCIStmtExecute: ORA-04044: 此处不允许过程, 函数, 程序包或类型
+ (ext\pdo_oci\oci_statement.c:148)
+ [ SQL语句 ] : SELECT * FROM (SELECT thinkphp.*, rownum AS numrow FROM (SELECT   COUNT(*) AS tp_count FROM rp_jwy001 WHERE ( 店名='湖里旗舰店' )) thinkphp )  WHERE (numrow>0 AND numrow<=1)
+
+[ 2015-11-19T16:29:24+08:00 ] 127.0.0.1 /stupboy/Admin/Index/index/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: select a.column_name,data_type,decode(nullable,'Y',0,1) notnull,data_default,decode(a.column_name,b.column_name,1,0) pk from user_tab_columns a,(select column_name from user_constraints c,user_cons_columns col where c.constraint_name=col.constraint_name and c.constraint_type='P'and c.table_name='RP_JWY001') b where table_name='RP_JWY001' and a.column_name=b.column_name(+) [ RunTime:0.0030s ]
+ERR: 4044:OCIStmtExecute: ORA-04044: 此处不允许过程, 函数, 程序包或类型
+ (ext\pdo_oci\oci_statement.c:148)
+ [ SQL语句 ] : SELECT * FROM (SELECT thinkphp.*, rownum AS numrow FROM (SELECT   COUNT(*) AS tp_count FROM rp_jwy001 WHERE ( 店名='湖里旗舰店' )) thinkphp )  WHERE (numrow>0 AND numrow<=1)
+ERR: 4044:OCIStmtExecute: ORA-04044: 此处不允许过程, 函数, 程序包或类型
+ (ext\pdo_oci\oci_statement.c:148)
+ [ SQL语句 ] : SELECT * FROM (SELECT thinkphp.*, rownum AS numrow FROM (SELECT   COUNT(*) AS tp_count FROM rp_jwy001 WHERE ( 店名='湖里旗舰店' )) thinkphp )  WHERE (numrow>0 AND numrow<=1)
+
+[ 2015-11-19T16:31:19+08:00 ] 127.0.0.1 /stupboy/Admin/Index/index/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: select a.column_name,data_type,decode(nullable,'Y',0,1) notnull,data_default,decode(a.column_name,b.column_name,1,0) pk from user_tab_columns a,(select column_name from user_constraints c,user_cons_columns col where c.constraint_name=col.constraint_name and c.constraint_type='P'and c.table_name='RP_JWY001') b where table_name='RP_JWY001' and a.column_name=b.column_name(+) [ RunTime:0.0020s ]
+ERR: 4044:OCIStmtExecute: ORA-04044: 此处不允许过程, 函数, 程序包或类型
+ (ext\pdo_oci\oci_statement.c:148)
+ [ SQL语句 ] : SELECT * FROM (SELECT thinkphp.*, rownum AS numrow FROM (SELECT   COUNT(*) AS tp_count FROM rp_jwy001 WHERE ( 店名='湖里旗舰店' )) thinkphp )  WHERE (numrow>0 AND numrow<=1)
+ERR: 4044:OCIStmtExecute: ORA-04044: 此处不允许过程, 函数, 程序包或类型
+ (ext\pdo_oci\oci_statement.c:148)
+ [ SQL语句 ] : SELECT * FROM (SELECT thinkphp.*, rownum AS numrow FROM (SELECT   COUNT(*) AS tp_count FROM rp_jwy001 WHERE ( 店名='湖里旗舰店' )) thinkphp )  WHERE (numrow>0 AND numrow<=1)
+
+[ 2015-11-19T16:31:20+08:00 ] 127.0.0.1 /stupboy/Admin/Index/index/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: select a.column_name,data_type,decode(nullable,'Y',0,1) notnull,data_default,decode(a.column_name,b.column_name,1,0) pk from user_tab_columns a,(select column_name from user_constraints c,user_cons_columns col where c.constraint_name=col.constraint_name and c.constraint_type='P'and c.table_name='RP_JWY001') b where table_name='RP_JWY001' and a.column_name=b.column_name(+) [ RunTime:0.0010s ]
+ERR: 4044:OCIStmtExecute: ORA-04044: 此处不允许过程, 函数, 程序包或类型
+ (ext\pdo_oci\oci_statement.c:148)
+ [ SQL语句 ] : SELECT * FROM (SELECT thinkphp.*, rownum AS numrow FROM (SELECT   COUNT(*) AS tp_count FROM rp_jwy001 WHERE ( 店名='湖里旗舰店' )) thinkphp )  WHERE (numrow>0 AND numrow<=1)
+ERR: 4044:OCIStmtExecute: ORA-04044: 此处不允许过程, 函数, 程序包或类型
+ (ext\pdo_oci\oci_statement.c:148)
+ [ SQL语句 ] : SELECT * FROM (SELECT thinkphp.*, rownum AS numrow FROM (SELECT   COUNT(*) AS tp_count FROM rp_jwy001 WHERE ( 店名='湖里旗舰店' )) thinkphp )  WHERE (numrow>0 AND numrow<=1)
+
+[ 2015-11-19T16:31:24+08:00 ] 127.0.0.1 /stupboy/Admin/Index/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: select a.column_name,data_type,decode(nullable,'Y',0,1) notnull,data_default,decode(a.column_name,b.column_name,1,0) pk from user_tab_columns a,(select column_name from user_constraints c,user_cons_columns col where c.constraint_name=col.constraint_name and c.constraint_type='P'and c.table_name='RP_JWY001') b where table_name='RP_JWY001' and a.column_name=b.column_name(+) [ RunTime:0.0020s ]
+ERR: 4044:OCIStmtExecute: ORA-04044: 此处不允许过程, 函数, 程序包或类型
+ (ext\pdo_oci\oci_statement.c:148)
+ [ SQL语句 ] : SELECT * FROM (SELECT thinkphp.*, rownum AS numrow FROM (SELECT   COUNT(*) AS tp_count FROM rp_jwy001 WHERE ( 店名='湖里旗舰店' )) thinkphp )  WHERE (numrow>0 AND numrow<=1)
+ERR: 4044:OCIStmtExecute: ORA-04044: 此处不允许过程, 函数, 程序包或类型
+ (ext\pdo_oci\oci_statement.c:148)
+ [ SQL语句 ] : SELECT * FROM (SELECT thinkphp.*, rownum AS numrow FROM (SELECT   COUNT(*) AS tp_count FROM rp_jwy001 WHERE ( 店名='湖里旗舰店' )) thinkphp )  WHERE (numrow>0 AND numrow<=1)
+
+[ 2015-11-19T16:31:49+08:00 ] 127.0.0.1 /stupboy/Admin/Index/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: select a.column_name,data_type,decode(nullable,'Y',0,1) notnull,data_default,decode(a.column_name,b.column_name,1,0) pk from user_tab_columns a,(select column_name from user_constraints c,user_cons_columns col where c.constraint_name=col.constraint_name and c.constraint_type='P'and c.table_name='V_JWY001') b where table_name='V_JWY001' and a.column_name=b.column_name(+) [ RunTime:0.0010s ]
+SQL: SELECT * FROM (SELECT thinkphp.*, rownum AS numrow FROM (SELECT   COUNT(*) AS tp_count FROM v_jwy001 WHERE ( 店名='湖里旗舰店' )) thinkphp )  WHERE (numrow>0 AND numrow<=1) [ RunTime:0.2930s ]
+SQL: SELECT * FROM (SELECT thinkphp.*, rownum AS numrow FROM (SELECT   * FROM v_jwy001 WHERE ( 店名='湖里旗舰店' )) thinkphp )  WHERE (numrow>0) AND (numrow<=10) [ RunTime:0.1840s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.021001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.021001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-11-19T16:32:36+08:00 ] 127.0.0.1 /stupboy/Admin/Index/index/p/2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: select a.column_name,data_type,decode(nullable,'Y',0,1) notnull,data_default,decode(a.column_name,b.column_name,1,0) pk from user_tab_columns a,(select column_name from user_constraints c,user_cons_columns col where c.constraint_name=col.constraint_name and c.constraint_type='P'and c.table_name='V_JWY001') b where table_name='V_JWY001' and a.column_name=b.column_name(+) [ RunTime:0.0010s ]
+SQL: SELECT * FROM (SELECT thinkphp.*, rownum AS numrow FROM (SELECT   COUNT(*) AS tp_count FROM v_jwy001 WHERE ( 店名='湖里旗舰店' )) thinkphp )  WHERE (numrow>0 AND numrow<=1) [ RunTime:0.2950s ]
+SQL: SELECT * FROM (SELECT thinkphp.*, rownum AS numrow FROM (SELECT   * FROM v_jwy001 WHERE ( 店名='湖里旗舰店' )) thinkphp )  WHERE (numrow>10) AND (numrow<=20) [ RunTime:0.1970s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.019001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2015-11-19T16:33:02+08:00 ] 127.0.0.1 /stupboy/Admin/Index/index/p/2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: select a.column_name,data_type,decode(nullable,'Y',0,1) notnull,data_default,decode(a.column_name,b.column_name,1,0) pk from user_tab_columns a,(select column_name from user_constraints c,user_cons_columns col where c.constraint_name=col.constraint_name and c.constraint_type='P'and c.table_name='PHP_DAILY_SELL') b where table_name='PHP_DAILY_SELL' and a.column_name=b.column_name(+) [ RunTime:0.0020s ]
+ERR: 942:OCIStmtExecute: ORA-00942: 表或视图不存在
+ (ext\pdo_oci\oci_statement.c:148)
+ [ SQL语句 ] : SELECT * FROM (SELECT thinkphp.*, rownum AS numrow FROM (SELECT   COUNT(*) AS tp_count FROM php_daily_sell WHERE ( 店名='湖里旗舰店' )) thinkphp )  WHERE (numrow>0 AND numrow<=1)
+ERR: 942:OCIStmtExecute: ORA-00942: 表或视图不存在
+ (ext\pdo_oci\oci_statement.c:148)
+ [ SQL语句 ] : SELECT * FROM (SELECT thinkphp.*, rownum AS numrow FROM (SELECT   COUNT(*) AS tp_count FROM php_daily_sell WHERE ( 店名='湖里旗舰店' )) thinkphp )  WHERE (numrow>0 AND numrow<=1)
+
+[ 2015-11-19T16:33:32+08:00 ] 127.0.0.1 /stupboy/Admin/Index/index/p/2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: select a.column_name,data_type,decode(nullable,'Y',0,1) notnull,data_default,decode(a.column_name,b.column_name,1,0) pk from user_tab_columns a,(select column_name from user_constraints c,user_cons_columns col where c.constraint_name=col.constraint_name and c.constraint_type='P'and c.table_name='PHP_DAILYSELL') b where table_name='PHP_DAILYSELL' and a.column_name=b.column_name(+) [ RunTime:0.2630s ]
+SQL: SELECT * FROM (SELECT thinkphp.*, rownum AS numrow FROM (SELECT   COUNT(*) AS tp_count FROM php_dailysell WHERE ( 店名='湖里旗舰店' )) thinkphp )  WHERE (numrow>0 AND numrow<=1) [ RunTime:3.7422s ]
+SQL: SELECT * FROM (SELECT thinkphp.*, rownum AS numrow FROM (SELECT   * FROM php_dailysell WHERE ( 店名='湖里旗舰店' )) thinkphp )  WHERE (numrow>10) AND (numrow<=20) [ RunTime:4.2682s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: 款号 D:\nginx\html\stupboy\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 78 行.
+NOTIC: [8] Undefined index: 大类 D:\nginx\html\stupboy\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 78 行.
+NOTIC: [8] Undefined index: 款号 D:\nginx\html\stupboy\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 78 行.
+NOTIC: [8] Undefined index: 大类 D:\nginx\html\stupboy\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 78 行.
+NOTIC: [8] Undefined index: 款号 D:\nginx\html\stupboy\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 78 行.
+NOTIC: [8] Undefined index: 大类 D:\nginx\html\stupboy\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 78 行.
+NOTIC: [8] Undefined index: 款号 D:\nginx\html\stupboy\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 78 行.
+NOTIC: [8] Undefined index: 大类 D:\nginx\html\stupboy\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 78 行.
+NOTIC: [8] Undefined index: 款号 D:\nginx\html\stupboy\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 78 行.
+NOTIC: [8] Undefined index: 大类 D:\nginx\html\stupboy\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 78 行.
+NOTIC: [8] Undefined index: 款号 D:\nginx\html\stupboy\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 78 行.
+NOTIC: [8] Undefined index: 大类 D:\nginx\html\stupboy\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 78 行.
+NOTIC: [8] Undefined index: 款号 D:\nginx\html\stupboy\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 78 行.
+NOTIC: [8] Undefined index: 大类 D:\nginx\html\stupboy\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 78 行.
+NOTIC: [8] Undefined index: 款号 D:\nginx\html\stupboy\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 78 行.
+NOTIC: [8] Undefined index: 大类 D:\nginx\html\stupboy\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 78 行.
+NOTIC: [8] Undefined index: 款号 D:\nginx\html\stupboy\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 78 行.
+NOTIC: [8] Undefined index: 大类 D:\nginx\html\stupboy\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 78 行.
+NOTIC: [8] Undefined index: 款号 D:\nginx\html\stupboy\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 78 行.
+NOTIC: [8] Undefined index: 大类 D:\nginx\html\stupboy\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 78 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.019001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2015-11-19T16:36:35+08:00 ] 127.0.0.1 /stupboy/Admin/Index/index/p/2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: select a.column_name,data_type,decode(nullable,'Y',0,1) notnull,data_default,decode(a.column_name,b.column_name,1,0) pk from user_tab_columns a,(select column_name from user_constraints c,user_cons_columns col where c.constraint_name=col.constraint_name and c.constraint_type='P'and c.table_name='PHP_DAILYSELL') b where table_name='PHP_DAILYSELL' and a.column_name=b.column_name(+) [ RunTime:0.0020s ]
+SQL: SELECT * FROM (SELECT thinkphp.*, rownum AS numrow FROM (SELECT   COUNT(*) AS tp_count FROM php_dailysell WHERE ( 店名='湖里旗舰店' )) thinkphp )  WHERE (numrow>0 AND numrow<=1) [ RunTime:1.8741s ]
+SQL: SELECT * FROM (SELECT thinkphp.*, rownum AS numrow FROM (SELECT   * FROM php_dailysell WHERE ( 店名='湖里旗舰店' )) thinkphp )  WHERE (numrow>10) AND (numrow<=20) [ RunTime:1.9051s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.020001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-11-19T16:38:34+08:00 ] 127.0.0.1 /stupboy/Admin/Index/index/p/3.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: select a.column_name,data_type,decode(nullable,'Y',0,1) notnull,data_default,decode(a.column_name,b.column_name,1,0) pk from user_tab_columns a,(select column_name from user_constraints c,user_cons_columns col where c.constraint_name=col.constraint_name and c.constraint_type='P'and c.table_name='PHP_DAILYSELL') b where table_name='PHP_DAILYSELL' and a.column_name=b.column_name(+) [ RunTime:0.0020s ]
+SQL: SELECT * FROM (SELECT thinkphp.*, rownum AS numrow FROM (SELECT   COUNT(*) AS tp_count FROM php_dailysell WHERE ( 店名='湖里旗舰店' )) thinkphp )  WHERE (numrow>0 AND numrow<=1) [ RunTime:1.8811s ]
+SQL: SELECT * FROM (SELECT thinkphp.*, rownum AS numrow FROM (SELECT   * FROM php_dailysell WHERE ( 店名='湖里旗舰店' )) thinkphp )  WHERE (numrow>20) AND (numrow<=30) [ RunTime:3.5532s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.019002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-11-19T16:38:49+08:00 ] 127.0.0.1 /stupboy/Admin/Index/index/p/3.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: select a.column_name,data_type,decode(nullable,'Y',0,1) notnull,data_default,decode(a.column_name,b.column_name,1,0) pk from user_tab_columns a,(select column_name from user_constraints c,user_cons_columns col where c.constraint_name=col.constraint_name and c.constraint_type='P'and c.table_name='PHP_DAILYSELL') b where table_name='PHP_DAILYSELL' and a.column_name=b.column_name(+) [ RunTime:0.0020s ]
+SQL: SELECT * FROM (SELECT thinkphp.*, rownum AS numrow FROM (SELECT   COUNT(*) AS tp_count FROM php_dailysell WHERE ( 店名='湖里旗舰店' )) thinkphp )  WHERE (numrow>0 AND numrow<=1) [ RunTime:2.0011s ]
+SQL: SELECT * FROM (SELECT thinkphp.*, rownum AS numrow FROM (SELECT   * FROM php_dailysell WHERE ( 店名='湖里旗舰店' )) thinkphp )  WHERE (numrow>20) AND (numrow<=30) [ RunTime:1.7181s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.022001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.023001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-11-19T16:39:37+08:00 ] 127.0.0.1 /stupboy/Admin/Index/index/p/4.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: select a.column_name,data_type,decode(nullable,'Y',0,1) notnull,data_default,decode(a.column_name,b.column_name,1,0) pk from user_tab_columns a,(select column_name from user_constraints c,user_cons_columns col where c.constraint_name=col.constraint_name and c.constraint_type='P'and c.table_name='PHP_DAILYSELL') b where table_name='PHP_DAILYSELL' and a.column_name=b.column_name(+) [ RunTime:0.0010s ]
+SQL: SELECT * FROM (SELECT thinkphp.*, rownum AS numrow FROM (SELECT   COUNT(*) AS tp_count FROM php_dailysell WHERE ( 店名='湖里旗舰店' )) thinkphp )  WHERE (numrow>0 AND numrow<=1) [ RunTime:1.8601s ]
+SQL: SELECT * FROM (SELECT thinkphp.*, rownum AS numrow FROM (SELECT   * FROM php_dailysell WHERE ( 店名='湖里旗舰店' )) thinkphp )  WHERE (numrow>30) AND (numrow<=40) [ RunTime:3.6142s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-11-19T16:39:45+08:00 ] 127.0.0.1 /stupboy/Admin/Index/index/p/5.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: select a.column_name,data_type,decode(nullable,'Y',0,1) notnull,data_default,decode(a.column_name,b.column_name,1,0) pk from user_tab_columns a,(select column_name from user_constraints c,user_cons_columns col where c.constraint_name=col.constraint_name and c.constraint_type='P'and c.table_name='PHP_DAILYSELL') b where table_name='PHP_DAILYSELL' and a.column_name=b.column_name(+) [ RunTime:0.0030s ]
+SQL: SELECT * FROM (SELECT thinkphp.*, rownum AS numrow FROM (SELECT   COUNT(*) AS tp_count FROM php_dailysell WHERE ( 店名='湖里旗舰店' )) thinkphp )  WHERE (numrow>0 AND numrow<=1) [ RunTime:1.9431s ]
+SQL: SELECT * FROM (SELECT thinkphp.*, rownum AS numrow FROM (SELECT   * FROM php_dailysell WHERE ( 店名='湖里旗舰店' )) thinkphp )  WHERE (numrow>40) AND (numrow<=50) [ RunTime:3.8102s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-11-19T16:40:28+08:00 ] 127.0.0.1 /stupboy/Admin/Index/index/p/5.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: select a.column_name,data_type,decode(nullable,'Y',0,1) notnull,data_default,decode(a.column_name,b.column_name,1,0) pk from user_tab_columns a,(select column_name from user_constraints c,user_cons_columns col where c.constraint_name=col.constraint_name and c.constraint_type='P'and c.table_name='PHP_DAILYSELL') b where table_name='PHP_DAILYSELL' and a.column_name=b.column_name(+) [ RunTime:0.0020s ]
+SQL: SELECT * FROM (SELECT thinkphp.*, rownum AS numrow FROM (SELECT   COUNT(*) AS tp_count FROM php_dailysell WHERE ( 店名='湖里旗舰店' )) thinkphp )  WHERE (numrow>0 AND numrow<=1) [ RunTime:1.9251s ]
+SQL: SELECT * FROM (SELECT thinkphp.*, rownum AS numrow FROM (SELECT   * FROM php_dailysell WHERE ( 店名='湖里旗舰店' ) ORDER BY 日期) thinkphp )  WHERE (numrow>40) AND (numrow<=50) [ RunTime:3.6262s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.018001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2015-11-19T16:41:27+08:00 ] 127.0.0.1 /stupboy/Admin/Index/index/p/6.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: select a.column_name,data_type,decode(nullable,'Y',0,1) notnull,data_default,decode(a.column_name,b.column_name,1,0) pk from user_tab_columns a,(select column_name from user_constraints c,user_cons_columns col where c.constraint_name=col.constraint_name and c.constraint_type='P'and c.table_name='PHP_DAILYSELL') b where table_name='PHP_DAILYSELL' and a.column_name=b.column_name(+) [ RunTime:0.0020s ]
+SQL: SELECT * FROM (SELECT thinkphp.*, rownum AS numrow FROM (SELECT   COUNT(*) AS tp_count FROM php_dailysell WHERE ( 店名='湖里旗舰店' )) thinkphp )  WHERE (numrow>0 AND numrow<=1) [ RunTime:1.8821s ]
+SQL: SELECT * FROM (SELECT thinkphp.*, rownum AS numrow FROM (SELECT   * FROM php_dailysell WHERE ( 店名='湖里旗舰店' ) ORDER BY 日期) thinkphp )  WHERE (numrow>50) AND (numrow<=60) [ RunTime:3.8682s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.022001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.022001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2015-11-19T16:41:37+08:00 ] 127.0.0.1 /stupboy/Admin/Index/index/p/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: select a.column_name,data_type,decode(nullable,'Y',0,1) notnull,data_default,decode(a.column_name,b.column_name,1,0) pk from user_tab_columns a,(select column_name from user_constraints c,user_cons_columns col where c.constraint_name=col.constraint_name and c.constraint_type='P'and c.table_name='PHP_DAILYSELL') b where table_name='PHP_DAILYSELL' and a.column_name=b.column_name(+) [ RunTime:0.0020s ]
+SQL: SELECT * FROM (SELECT thinkphp.*, rownum AS numrow FROM (SELECT   COUNT(*) AS tp_count FROM php_dailysell WHERE ( 店名='湖里旗舰店' )) thinkphp )  WHERE (numrow>0 AND numrow<=1) [ RunTime:1.9481s ]
+SQL: SELECT * FROM (SELECT thinkphp.*, rownum AS numrow FROM (SELECT   * FROM php_dailysell WHERE ( 店名='湖里旗舰店' ) ORDER BY 日期) thinkphp )  WHERE (numrow>0) AND (numrow<=10) [ RunTime:3.7132s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.018001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-11-19T16:42:34+08:00 ] 127.0.0.1 /stupboy/Admin/Index/index/p/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: select a.column_name,data_type,decode(nullable,'Y',0,1) notnull,data_default,decode(a.column_name,b.column_name,1,0) pk from user_tab_columns a,(select column_name from user_constraints c,user_cons_columns col where c.constraint_name=col.constraint_name and c.constraint_type='P'and c.table_name='PHP_DAILYSELL') b where table_name='PHP_DAILYSELL' and a.column_name=b.column_name(+) [ RunTime:0.0020s ]
+SQL: SELECT * FROM (SELECT thinkphp.*, rownum AS numrow FROM (SELECT   COUNT(*) AS tp_count FROM php_dailysell WHERE ( 店名='湖里旗舰店' )) thinkphp )  WHERE (numrow>0 AND numrow<=1) [ RunTime:2.1181s ]
+NOTIC: [8] Use of undefined constant desc - assumed 'desc' D:\nginx\html\stupboy\Application\Admin\Controller\IndexController.class.php 第 16 行.
+SQL: SELECT * FROM (SELECT thinkphp.*, rownum AS numrow FROM (SELECT   * FROM php_dailysell WHERE ( 店名='湖里旗舰店' ) ORDER BY 日期) thinkphp )  WHERE (numrow>0) AND (numrow<=10) [ RunTime:1.9921s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001001s ]
+
+[ 2015-11-19T16:42:49+08:00 ] 127.0.0.1 /stupboy/Admin/Index/index/p/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: select a.column_name,data_type,decode(nullable,'Y',0,1) notnull,data_default,decode(a.column_name,b.column_name,1,0) pk from user_tab_columns a,(select column_name from user_constraints c,user_cons_columns col where c.constraint_name=col.constraint_name and c.constraint_type='P'and c.table_name='PHP_DAILYSELL') b where table_name='PHP_DAILYSELL' and a.column_name=b.column_name(+) [ RunTime:0.0020s ]
+SQL: SELECT * FROM (SELECT thinkphp.*, rownum AS numrow FROM (SELECT   COUNT(*) AS tp_count FROM php_dailysell WHERE ( 店名='湖里旗舰店' )) thinkphp )  WHERE (numrow>0 AND numrow<=1) [ RunTime:1.9791s ]
+SQL: SELECT * FROM (SELECT thinkphp.*, rownum AS numrow FROM (SELECT   * FROM php_dailysell WHERE ( 店名='湖里旗舰店' ) ORDER BY 日期) thinkphp )  WHERE (numrow>0) AND (numrow<=10) [ RunTime:1.7461s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.018001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2015-11-19T16:43:54+08:00 ] 127.0.0.1 /stupboy/Admin/Index/index/p/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: select a.column_name,data_type,decode(nullable,'Y',0,1) notnull,data_default,decode(a.column_name,b.column_name,1,0) pk from user_tab_columns a,(select column_name from user_constraints c,user_cons_columns col where c.constraint_name=col.constraint_name and c.constraint_type='P'and c.table_name='PHP_DAILYSELL') b where table_name='PHP_DAILYSELL' and a.column_name=b.column_name(+) [ RunTime:0.0020s ]
+SQL: SELECT * FROM (SELECT thinkphp.*, rownum AS numrow FROM (SELECT   COUNT(*) AS tp_count FROM php_dailysell WHERE ( 店名='湖里旗舰店' )) thinkphp )  WHERE (numrow>0 AND numrow<=1) [ RunTime:1.9941s ]
+SQL: SELECT * FROM (SELECT thinkphp.*, rownum AS numrow FROM (SELECT   * FROM php_dailysell WHERE ( 店名='湖里旗舰店' ) ORDER BY 日期 desc) thinkphp )  WHERE (numrow>0) AND (numrow<=10) [ RunTime:6.7664s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.021001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.021001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-11-19T16:44:58+08:00 ] 127.0.0.1 /stupboy/Admin/Index/index/p/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: select a.column_name,data_type,decode(nullable,'Y',0,1) notnull,data_default,decode(a.column_name,b.column_name,1,0) pk from user_tab_columns a,(select column_name from user_constraints c,user_cons_columns col where c.constraint_name=col.constraint_name and c.constraint_type='P'and c.table_name='PHP_DAILYSELL') b where table_name='PHP_DAILYSELL' and a.column_name=b.column_name(+) [ RunTime:0.0010s ]
+SQL: SELECT * FROM (SELECT thinkphp.*, rownum AS numrow FROM (SELECT   COUNT(*) AS tp_count FROM php_dailysell) thinkphp )  WHERE (numrow>0 AND numrow<=1) [ RunTime:13.2728s ]
+SQL: SELECT * FROM (SELECT thinkphp.*, rownum AS numrow FROM (SELECT   * FROM php_dailysell ORDER BY 日期 desc) thinkphp )  WHERE (numrow>0) AND (numrow<=10) [ RunTime:16.4499s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-11-19T16:48:40+08:00 ] 127.0.0.1 /stupboy/Admin/Index/index/p/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+SQL: select a.column_name,data_type,decode(nullable,'Y',0,1) notnull,data_default,decode(a.column_name,b.column_name,1,0) pk from user_tab_columns a,(select column_name from user_constraints c,user_cons_columns col where c.constraint_name=col.constraint_name and c.constraint_type='P'and c.table_name='PHP_DAILYSELL') b where table_name='PHP_DAILYSELL' and a.column_name=b.column_name(+) [ RunTime:0.0010s ]
+SQL: SELECT * FROM (SELECT thinkphp.*, rownum AS numrow FROM (SELECT   COUNT(*) AS tp_count FROM php_dailysell WHERE ( 经销商='福建分公司' )) thinkphp )  WHERE (numrow>0 AND numrow<=1) [ RunTime:16.7720s ]
+
+[ 2015-11-19T16:49:29+08:00 ] 127.0.0.1 /stupboy/Admin/Index/index/p/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: select a.column_name,data_type,decode(nullable,'Y',0,1) notnull,data_default,decode(a.column_name,b.column_name,1,0) pk from user_tab_columns a,(select column_name from user_constraints c,user_cons_columns col where c.constraint_name=col.constraint_name and c.constraint_type='P'and c.table_name='PHP_DAILYSELL') b where table_name='PHP_DAILYSELL' and a.column_name=b.column_name(+) [ RunTime:0.0010s ]
+SQL: SELECT * FROM (SELECT thinkphp.*, rownum AS numrow FROM (SELECT   COUNT(*) AS tp_count FROM php_dailysell WHERE ( 经销商='福建分公司' )) thinkphp )  WHERE (numrow>0 AND numrow<=1) [ RunTime:10.5276s ]
+SQL: SELECT * FROM (SELECT thinkphp.*, rownum AS numrow FROM (SELECT   * FROM php_dailysell WHERE ( 经销商='福建分公司' ) ORDER BY 日期 desc) thinkphp )  WHERE (numrow>0) AND (numrow<=10) [ RunTime:10.6406s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-11-19T16:50:57+08:00 ] 127.0.0.1 /stupboy/Admin/Index/index/p/2338.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: select a.column_name,data_type,decode(nullable,'Y',0,1) notnull,data_default,decode(a.column_name,b.column_name,1,0) pk from user_tab_columns a,(select column_name from user_constraints c,user_cons_columns col where c.constraint_name=col.constraint_name and c.constraint_type='P'and c.table_name='PHP_DAILYSELL') b where table_name='PHP_DAILYSELL' and a.column_name=b.column_name(+) [ RunTime:0.0020s ]
+SQL: SELECT * FROM (SELECT thinkphp.*, rownum AS numrow FROM (SELECT   COUNT(*) AS tp_count FROM php_dailysell WHERE ( 经销商='福建分公司' )) thinkphp )  WHERE (numrow>0 AND numrow<=1) [ RunTime:10.5226s ]
+SQL: SELECT * FROM (SELECT thinkphp.*, rownum AS numrow FROM (SELECT   * FROM php_dailysell WHERE ( 经销商='福建分公司' ) ORDER BY 日期 desc) thinkphp )  WHERE (numrow>23370) AND (numrow<=23380) [ RunTime:15.1709s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-11-19T16:51:39+08:00 ] 127.0.0.1 /stupboy/Admin/Index/index/p/2328.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: select a.column_name,data_type,decode(nullable,'Y',0,1) notnull,data_default,decode(a.column_name,b.column_name,1,0) pk from user_tab_columns a,(select column_name from user_constraints c,user_cons_columns col where c.constraint_name=col.constraint_name and c.constraint_type='P'and c.table_name='PHP_DAILYSELL') b where table_name='PHP_DAILYSELL' and a.column_name=b.column_name(+) [ RunTime:0.0010s ]
+SQL: SELECT * FROM (SELECT thinkphp.*, rownum AS numrow FROM (SELECT   COUNT(*) AS tp_count FROM php_dailysell WHERE ( 经销商='福建分公司' )) thinkphp )  WHERE (numrow>0 AND numrow<=1) [ RunTime:10.4356s ]
+SQL: SELECT * FROM (SELECT thinkphp.*, rownum AS numrow FROM (SELECT   * FROM php_dailysell WHERE ( 经销商='福建分公司' ) ORDER BY 日期 desc) thinkphp )  WHERE (numrow>23270) AND (numrow<=23280) [ RunTime:15.2729s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.024001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.024001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003000s ]
+

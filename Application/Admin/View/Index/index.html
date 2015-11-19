@@ -1,0 +1,17 @@
+<layout name="layout" />
+<html> 
+<head>
+<title>hello</title>
+</head>
+<body>
+<table class="table">
+<td>店名</td><td>款号</td><td>大类</td>
+<volist name="data" id="vo">
+<tr>
+<td>{$vo.日期}</td><td>{$vo.店名}</td><td>{$vo.销售}</td>
+</tr>
+</volist>
+</table>
+<div class="result page">{$Page}</div>
+</body>
+</html> 

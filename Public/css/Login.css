@@ -1,0 +1,5 @@
+body {FONt-SIZE: 12px; BACKGROUND: #E8F2FB; COLOR: #333; MARGIN: 80px;background:url(__PUBLIC__/images/bg.jpg) repeat-x;}
+.bt{ font-size:24px; color:#FFFFFF; text-align:center; font-weight:bold}
+.btn {
+	BORDER-RIGHT: #0033cc 1px solid; BORDER-TOP: #00ccff 1px solid; FONT-SIZE: 12px; BORDER-LEFT: #00ccff 1px solid; CURSOR: hand; COLOR: #ffffff; BORDER-BOTTOM: #0033cc 1px solid; FONT-FAMILY: "宋体"; BACKGROUND-COLOR: #0099ff
+}

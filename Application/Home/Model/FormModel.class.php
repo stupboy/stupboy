@@ -7,7 +7,7 @@ class FormModel extends Model {
 	array('content','require','内容必须'),
 	);
 	protected $_auto = array(
-	array('create_time','time',1,'funtio'),
+	array('create_time','time',1,'funtion'),
 	);
 
 }

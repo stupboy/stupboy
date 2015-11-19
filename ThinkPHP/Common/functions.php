@@ -1548,3 +1548,12 @@ function think_filter(&$value){
 function in_array_case($value,$array){
     return in_array(strtolower($value),array_map('strtolower',$array));
 }
+//+-------------------------------------------------------------------+
+//|-------自定义函数添加  BY ct_ag  update 2015-11-19-----------------|
+//+-------------------------------------------------------------------+
+function authcheck($rule,$uid,$relation="or",$t,$f="权限不足！"){
+    //use Think/Auth; //启用报错
+    $auth = new Auth();
+    return $Auth->check($rule,$uid,$relation)?$t:$f;
+
+}
